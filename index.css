@@ -1,3 +1,5 @@
+/* #1f23937; */
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +7,86 @@
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 545px;
+  height: 720px;
+  margin: 64px auto;
+  background: #6943ff;
+  border-radius: 2.7px;
+}
+
+main {
+  height: 275px;
+}
+
+#convert-input {
+  display: block;
+  width: 115px;
+  height: 84px;
+  font-size: 2.7rem;
+  font-weight: 800;
+  background-color: transparent;
+  border: 1px solid ghostwhite;
+  color: ghostwhite;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 7px;
+}
+
+#convert-button {
+  display: block;
+  width: 115px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 445px;
+  text-align: center;
+  background: #1f2937;
+}
+
+section > div {
+  width: 490px;
+  margin: 0 auto;
+  border-radius: 2.7px;
+  padding: 5px 10px;
+}
+
+.length-div {
+  background: #273549;
+}
+
+.volume-div {
+  background: #273549;
+}
+
+.mass-div {
+  background: #273549;
+}
+/* Typography */
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  color: #ccc1ff;
+  font-weight: 500;
+}
+
+p {
+  color: ghostwhite;
+  font-weight: 200;
 }
